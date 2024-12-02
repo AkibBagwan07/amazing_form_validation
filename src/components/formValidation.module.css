@@ -1,0 +1,32 @@
+.formParent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.move{
+    background-color: red;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+
+.move:hover{
+   margin-top: 50px; 
+}
+
+.DontMove{
+    background-color: blue;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
